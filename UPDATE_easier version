@@ -3,7 +3,7 @@ def word_finder():
     import pandas as pd
     import numpy as np
 
-    df = pd.read_csv("C:\\Users\\vmeri\\OneDrive\\Desktop\\Python code\\Crossword_finder\\englishwords.txt",header= 0)
+    df = pd.read_csv(-------------------------PATH----------------------)
     df = df["Words"].unique()
 
     countx = 0
